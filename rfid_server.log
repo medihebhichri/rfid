@@ -1,0 +1,142 @@
+2025-04-19 00:15:28,336 - rfid_server - INFO - Starting RFID Access Control Server
+2025-04-19 00:15:28,522 - rfid_server - INFO - Connected to database: Microsoft SQL Server 2022 (RTM) - 16.0.1000.6 (X64) 
+	Oct  8 2022 05:58:25 
+	Copyright (C) 2022 Microsoft Corporation
+	Developer Edition (64-bit) on Windows 10 Home Single Language 10.0 <X64> (Build 26100: ) (Hypervisor)
+
+2025-04-19 00:15:28,965 - rfid_server - INFO - Database connection established
+2025-04-19 00:15:30,026 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.100.201:3000
+2025-04-19 00:15:30,026 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-19 00:15:50,039 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-19 00:15:50,043 - rfid_server - INFO - Database connection established
+2025-04-19 00:15:50,044 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-19 00:15:50,049 - rfid_server - WARNING - RFID 33794310 unauthorized - No matching employee
+2025-04-19 00:15:50,080 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-19 00:15:50,081 - rfid_server - INFO - Database connection closed
+2025-04-19 00:15:50,082 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:15:50] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-19 00:15:56,489 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-19 00:15:56,489 - rfid_server - INFO - Database connection established
+2025-04-19 00:15:56,489 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-19 00:15:56,502 - rfid_server - WARNING - RFID 33794310 unauthorized - No matching employee
+2025-04-19 00:15:56,516 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-19 00:15:56,516 - rfid_server - INFO - Database connection closed
+2025-04-19 00:15:56,516 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:15:56] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-19 00:16:06,318 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-19 00:16:06,324 - rfid_server - INFO - Database connection established
+2025-04-19 00:16:06,325 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-19 00:16:06,326 - rfid_server - WARNING - RFID 33794310 unauthorized - No matching employee
+2025-04-19 00:16:06,329 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-19 00:16:06,329 - rfid_server - INFO - Database connection closed
+2025-04-19 00:16:06,329 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:16:06] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-19 00:17:03,979 - rfid_server - INFO - Added new employee with RFID 33794310: nourhene kllds
+2025-04-19 00:17:09,804 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-19 00:17:09,811 - rfid_server - INFO - Database connection established
+2025-04-19 00:17:09,812 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-19 00:17:09,815 - rfid_server - INFO - RFID 33794310 authorized - Employee: nourhene kllds
+2025-04-19 00:17:09,820 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-19 00:17:09,821 - rfid_server - INFO - Database connection closed
+2025-04-19 00:17:09,821 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:17:09] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-19 00:17:21,696 - rfid_server - INFO - Verification request received for RFID: B32BB8A6
+2025-04-19 00:17:21,697 - rfid_server - INFO - Database connection established
+2025-04-19 00:17:21,697 - rfid_server - DEBUG - Verifying RFID: B32BB8A6
+2025-04-19 00:17:21,698 - rfid_server - WARNING - RFID B32BB8A6 unauthorized - No matching employee
+2025-04-19 00:17:21,703 - rfid_server - DEBUG - Successfully recorded access event for RFID: B32BB8A6
+2025-04-19 00:17:21,703 - rfid_server - INFO - Database connection closed
+2025-04-19 00:17:21,704 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:17:21] "GET /verify?rfid=B32BB8A6 HTTP/1.1" 200 -
+2025-04-19 00:17:28,132 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-19 00:17:28,134 - rfid_server - INFO - Database connection established
+2025-04-19 00:17:28,134 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-19 00:17:28,137 - rfid_server - INFO - RFID 33794310 authorized - Employee: nourhene kllds
+2025-04-19 00:17:28,146 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-19 00:17:28,146 - rfid_server - INFO - Database connection closed
+2025-04-19 00:17:28,146 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:17:28] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-19 00:21:45,146 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-19 00:21:45,153 - rfid_server - INFO - Database connection established
+2025-04-19 00:21:45,153 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-19 00:21:45,156 - rfid_server - INFO - RFID 33794310 authorized - Employee: nourhene kllds
+2025-04-19 00:21:45,163 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-19 00:21:45,164 - rfid_server - INFO - Database connection closed
+2025-04-19 00:21:45,164 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:21:45] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-19 00:22:18,346 - rfid_server - INFO - Verification request received for RFID: B32BB8A6
+2025-04-19 00:22:18,347 - rfid_server - INFO - Database connection established
+2025-04-19 00:22:18,347 - rfid_server - DEBUG - Verifying RFID: B32BB8A6
+2025-04-19 00:22:18,350 - rfid_server - WARNING - RFID B32BB8A6 unauthorized - No matching employee
+2025-04-19 00:22:18,362 - rfid_server - DEBUG - Successfully recorded access event for RFID: B32BB8A6
+2025-04-19 00:22:18,363 - rfid_server - INFO - Database connection closed
+2025-04-19 00:22:18,364 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:22:18] "GET /verify?rfid=B32BB8A6 HTTP/1.1" 200 -
+2025-04-19 00:22:23,034 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-19 00:22:23,035 - rfid_server - INFO - Database connection established
+2025-04-19 00:22:23,035 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-19 00:22:23,036 - rfid_server - INFO - RFID 33794310 authorized - Employee: nourhene kllds
+2025-04-19 00:22:23,040 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-19 00:22:23,041 - rfid_server - INFO - Database connection closed
+2025-04-19 00:22:23,042 - werkzeug - INFO - 192.168.100.201 - - [19/Apr/2025 00:22:23] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-19 00:39:38,359 - rfid_server - INFO - Database connection closed
+2025-04-20 00:58:36,629 - rfid_server - INFO - Starting RFID Access Control Server
+2025-04-20 00:58:36,852 - rfid_server - INFO - Connected to database: Microsoft SQL Server 2022 (RTM) - 16.0.1000.6 (X64) 
+	Oct  8 2022 05:58:25 
+	Copyright (C) 2022 Microsoft Corporation
+	Developer Edition (64-bit) on Windows 10 Home Single Language 10.0 <X64> (Build 26100: ) (Hypervisor)
+
+2025-04-20 00:58:36,885 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.100.201:3000
+2025-04-20 00:58:36,886 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 00:58:37,322 - rfid_server - INFO - Database connection established
+2025-04-20 01:00:54,667 - rfid_server - INFO - Database connection closed
+2025-04-20 01:00:59,292 - rfid_server - INFO - Starting RFID Access Control Server
+2025-04-20 01:00:59,361 - rfid_server - INFO - Connected to database: Microsoft SQL Server 2022 (RTM) - 16.0.1000.6 (X64) 
+	Oct  8 2022 05:58:25 
+	Copyright (C) 2022 Microsoft Corporation
+	Developer Edition (64-bit) on Windows 10 Home Single Language 10.0 <X64> (Build 26100: ) (Hypervisor)
+
+2025-04-20 01:00:59,379 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.100.201:3000
+2025-04-20 01:00:59,380 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-20 01:00:59,557 - rfid_server - INFO - Database connection established
+2025-04-20 01:02:32,561 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-20 01:02:32,569 - rfid_server - INFO - Database connection established
+2025-04-20 01:02:32,570 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-20 01:02:32,577 - rfid_server - INFO - RFID 33794310 authorized - Employee: nourhene kllds
+2025-04-20 01:02:32,610 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-20 01:02:32,612 - rfid_server - INFO - Database connection closed
+2025-04-20 01:02:32,612 - werkzeug - INFO - 192.168.100.201 - - [20/Apr/2025 01:02:32] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-20 01:02:47,204 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-20 01:02:47,205 - rfid_server - INFO - Database connection established
+2025-04-20 01:02:47,205 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-20 01:02:47,206 - rfid_server - INFO - RFID 33794310 authorized - Employee: nourhene kllds
+2025-04-20 01:02:47,209 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-20 01:02:47,209 - rfid_server - INFO - Database connection closed
+2025-04-20 01:02:47,210 - werkzeug - INFO - 192.168.100.201 - - [20/Apr/2025 01:02:47] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-20 01:02:56,419 - rfid_server - INFO - Verification request received for RFID: B32BB8A6
+2025-04-20 01:02:56,419 - rfid_server - INFO - Database connection established
+2025-04-20 01:02:56,420 - rfid_server - DEBUG - Verifying RFID: B32BB8A6
+2025-04-20 01:02:56,469 - rfid_server - WARNING - RFID B32BB8A6 unauthorized - No matching employee
+2025-04-20 01:02:56,525 - rfid_server - DEBUG - Successfully recorded access event for RFID: B32BB8A6
+2025-04-20 01:02:56,526 - rfid_server - INFO - Database connection closed
+2025-04-20 01:02:56,526 - werkzeug - INFO - 192.168.100.201 - - [20/Apr/2025 01:02:56] "GET /verify?rfid=B32BB8A6 HTTP/1.1" 200 -
+2025-04-20 01:03:02,050 - rfid_server - INFO - Verification request received for RFID: 33794310
+2025-04-20 01:03:02,051 - rfid_server - INFO - Database connection established
+2025-04-20 01:03:02,052 - rfid_server - DEBUG - Verifying RFID: 33794310
+2025-04-20 01:03:02,056 - rfid_server - INFO - RFID 33794310 authorized - Employee: nourhene kllds
+2025-04-20 01:03:02,064 - rfid_server - DEBUG - Successfully recorded access event for RFID: 33794310
+2025-04-20 01:03:02,065 - rfid_server - INFO - Database connection closed
+2025-04-20 01:03:02,066 - werkzeug - INFO - 192.168.100.201 - - [20/Apr/2025 01:03:02] "GET /verify?rfid=33794310 HTTP/1.1" 200 -
+2025-04-23 21:46:13,859 - rfid_server - INFO - Starting RFID Access Control Server
+2025-04-23 21:46:13,952 - rfid_server - INFO - Connected to database: Microsoft SQL Server 2022 (RTM) - 16.0.1000.6 (X64) 
+	Oct  8 2022 05:58:25 
+	Copyright (C) 2022 Microsoft Corporation
+	Developer Edition (64-bit) on Windows 10 Home Single Language 10.0 <X64> (Build 26100: ) (Hypervisor)
+
+2025-04-23 21:46:14,194 - rfid_server - INFO - Database connection established
+2025-04-23 21:46:15,340 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.100.201:3000
+2025-04-23 21:46:15,340 - werkzeug - INFO - [33mPress CTRL+C to quit[0m

@@ -1,0 +1,16 @@
+2025-04-11 11:39:58,368 - INFO - Database connection established
+2025-04-11 11:40:05,641 - ERROR - Error connecting to ESP32: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: /192.168.137.128//status (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000155F32DD430>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)"))
+2025-04-11 11:40:05,642 - INFO - Starting RFID listener
+2025-04-11 11:40:05,643 - INFO - RFID Listener started on port 5000
+2025-04-11 11:41:10,450 - INFO - Database connection established
+2025-04-11 11:41:17,729 - ERROR - Error connecting to ESP32: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: /192.168.137.128//status (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000221E196C430>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)"))
+2025-04-11 11:41:17,730 - INFO - Starting RFID listener
+2025-04-11 11:41:17,730 - INFO - RFID Listener started on port 5000
+2025-04-11 11:44:32,038 - INFO - Database connection established
+2025-04-11 11:44:32,127 - INFO - Successfully connected to ESP32 at http://192.168.137.128
+2025-04-11 11:44:32,127 - INFO - Starting RFID listener
+2025-04-11 11:44:32,128 - INFO - RFID Listener started on port 5000
+2025-04-12 01:54:14,167 - INFO - Database connection established
+2025-04-12 01:54:19,187 - ERROR - Error connecting to ESP32: HTTPConnectionPool(host='192.168.137.128', port=80): Max retries exceeded with url: /status (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002C43748D2B0>, 'Connection to 192.168.137.128 timed out. (connect timeout=5)'))
+2025-04-12 01:54:19,187 - INFO - Starting RFID listener
+2025-04-12 01:54:19,188 - INFO - RFID Listener started on port 5000

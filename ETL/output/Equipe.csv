@@ -1,0 +1,8 @@
+equipe_id,nom_equipe,description,chef_equipe
+1,Équipe Production,Responsable de la production et fabrication,Jean Dupont
+2,Équipe Maintenance,Maintenance des équipements et installations,Marie Lambert
+3,Équipe Logistique,Gestion des stocks et expéditions,Philippe Martin
+4,Équipe Qualité,Contrôle et assurance qualité,Sophie Bernard
+5,Équipe R&D,Recherche et développement,Thomas Petit
+6,Équipe Administrative,Gestion administrative et RH,Claire Dubois
+7,Équipe Informatique,Support IT et développement,Lucas Moreau

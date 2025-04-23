@@ -1,0 +1,13 @@
+poste_id,titre_poste,niveau_competence,description,requirements
+1,Opérateur,Débutant,Opération des machines de base,Formation technique de base
+2,Opérateur,Intermédiaire,Opération des machines complexes,1 an d'expérience minimum
+3,Opérateur,Expert,Opération et réglage de toutes les machines,3 ans d'expérience minimum
+4,Technicien,Débutant,Maintenance préventive,Formation technique
+5,Technicien,Intermédiaire,Réparations et maintenance,2 ans d'expérience minimum
+6,Technicien,Expert,Dépannage complexe et améliorations,5 ans d'expérience minimum
+7,Ingénieur,Junior,Support technique et analyses,Diplôme d'ingénieur
+8,Ingénieur,Senior,Conception et amélioration des process,3 ans d'expérience en ingénierie
+9,Manager,Intermédiaire,Gestion d'équipe et planification,Expérience en management
+10,Manager,Senior,Direction stratégique,5 ans d'expérience en management
+11,Administratif,Junior,Tâches administratives de base,Formation administrative
+12,Administratif,Senior,Coordination administrative,3 ans d'expérience minimum
