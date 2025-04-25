@@ -8,7 +8,7 @@
 
 // Network credentials
 const char* ssid = "iheb";     // Replace with your WiFi SSID
-const char* password = "vendetta13.iheb"; // Replace with your WiFi password
+const char* password = ""; // Replace with your WiFi password
 
 // Server address (PC's IP address where PyQt server is running)
 const char* serverUrl = "http://192.168.100.201:3000/verify"; // Replace with your PC's IP
